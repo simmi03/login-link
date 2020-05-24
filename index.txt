@@ -24,7 +24,7 @@
                 id="t2"/>
           
         <input type="text" placeholder="email id"id="t3"/>
-        <button>create </button>
+        
             <p class="message"> Already Registered? 
                 <a href="#">Login</a> </p>
             
@@ -47,12 +47,9 @@
             
                                   
             
-           <input type="button" value="Login" onclick="javascript:validate()" />
+              <input type="button" onclick="window.location.href = 'page2.html';" value="Login"/>
             <p class="message">Not Registered? <a href ="#">Register</a> </p>
-          
 
-                  
-        
            
               </form>
             
